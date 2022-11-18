@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>IncaTechnologies.Cloner</PackageId>
+    <Title>IncaTechnologies Cloner</Title>
+    <Version>1.0.0</Version>
+    <Authors>IncaTechnologies</Authors>
+    <Description>Extension method to clone object using serialization.</Description>
+    <Copyright>Copyright (c) IncaTechnologies 2022</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>
