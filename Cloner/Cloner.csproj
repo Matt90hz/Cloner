@@ -11,7 +11,30 @@
     <Authors>IncaTechnologies</Authors>
     <Description>Extension method to clone object using serialization.</Description>
     <Copyright>Copyright (c) IncaTechnologies 2022</Copyright>
+    <PackageProjectUrl>https://github.com/Matt90hz/Cloner</PackageProjectUrl>
+    <PackageIcon>Incatechnologies_logo_128x128.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/Matt90hz/Cloner.git</RepositoryUrl>
+    <PackageTags>clone, cloner</PackageTags>
+    <PackageReleaseNotes>1.0.0 - First release</PackageReleaseNotes>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Incatechnologies\Incatechnologies_logo_128x128.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
