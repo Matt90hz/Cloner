@@ -4,10 +4,10 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
     <PackageId>IncaTechnologies.Cloner</PackageId>
     <Title>IncaTechnologies Cloner</Title>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>IncaTechnologies</Authors>
     <Description>Extension method to clone object using serialization.</Description>
     <Copyright>Copyright (c) IncaTechnologies 2022</Copyright>
@@ -16,9 +16,13 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/Matt90hz/Cloner.git</RepositoryUrl>
     <PackageTags>clone, cloner</PackageTags>
-    <PackageReleaseNotes>1.0.0 - First release</PackageReleaseNotes>
+    <PackageReleaseNotes>1.0.0 - First release
+1.0.1 - Added documentation</PackageReleaseNotes>
     <NeutralLanguage>en</NeutralLanguage>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <Product>$(Title)</Product>
+    <PackageOutputPath>..\.nupkg</PackageOutputPath>
   </PropertyGroup>
 
   <ItemGroup>
